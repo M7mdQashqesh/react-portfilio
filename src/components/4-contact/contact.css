@@ -155,17 +155,18 @@
 }
 
 @media (max-width: 600px) {
-  .right-section {
-    display: none;
+  .parent-contact .bottom .left-section {
+    margin: 0 auto;
   }
-
+  
   .parent-contact .bottom .left-section form {
     justify-content: center;
     align-items: center;
+
   }
 
   .parent-contact .bottom .left-section form button {
-    width: 150px;
+    width: 120px;
   }
 
   .parent-contact .bottom .left-section form .email-address,
@@ -177,11 +178,8 @@
 
   .parent-contact .bottom .left-section form #email,
   .parent-contact .bottom .left-section form #text-area {
-    width: 380px;
+    width: 300px;
   }
 
-  .parent-contact .bottom .left-section {
-    width: 100%;
-    margin: 0 auto;
-  }
+  
 }

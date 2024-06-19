@@ -1,0 +1,88 @@
+/* =====================================
+ table of conents
+========================================
+1. Left Section
+2. Right Section */
+
+
+
+
+.hero {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* =====================================
+ 1. Left Section
+======================================== */
+
+.hero .left-section {
+  flex-grow: 1;
+}
+
+.hero .left-section .parent-avatar {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.hero .left-section .avatar {
+  width: 90px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  padding: 2px;
+  box-shadow: 2px 2px 40px gray inset;
+}
+
+.hero .left-section .icon-verified {
+  font-size: 20px;
+  color: var(--blue);
+  margin-bottom: 5px;
+}
+
+.hero .left-section .title {
+    font-size: 45px;
+    line-height: 1.4;
+    margin: 25px 0;
+    color: var(--heading-color);
+}
+
+.hero .left-section .sub-title {
+    color: var(--paragraph-color);
+    line-height: 1.5;
+}
+
+.hero .left-section .social-icons {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: var(--paragraph-color);
+}
+
+.hero .left-section .social-icons .icon:hover {
+    cursor: pointer;
+    color: var(--icon-hover);
+    transition: 0.2s;
+    scale: 1.1;
+}
+
+
+
+/* =====================================
+ 2. Right Section
+======================================== */
+
+.animation {
+  width: 100%;
+  translate: 30px 30px;
+}
+
+
+@media (max-width:1200px) {
+  .right-section {
+    display: none;
+  }
+}

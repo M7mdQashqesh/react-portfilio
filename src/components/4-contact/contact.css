@@ -1,0 +1,187 @@
+/* =====================================
+ table of conents
+========================================
+1. Up Section
+2. Bottom Section
+3. Bottom Section => left
+4. Bottom Section => right */
+
+/* =====================================
+ 1. Up Section
+======================================== */
+.parent-contact .up .title .icon-envelope {
+  font-size: 28px;
+  color: var(--paragraph-color);
+}
+
+.parent-contact .up .title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  color: var(--heading-color);
+}
+
+.parent-contact .up .description {
+  color: var(--paragraph-color);
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+/* =====================================
+ 2. Bottom Section
+======================================== */
+.parent-contact .bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+/* =====================================
+ 3. Bottom Section => left
+======================================== */
+.parent-contact .bottom .left-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.parent-contact .bottom .left-section form textarea {
+  width: 300px;
+  min-height: 200px;
+  resize: vertical;
+}
+
+.parent-contact .bottom .left-section form #email {
+  border-radius: 5px;
+  width: 300px;
+}
+
+.parent-contact .bottom .left-section form label {
+  color: var(--paragraph-color);
+}
+
+.parent-contact .bottom .left-section form #email,
+.parent-contact .bottom .left-section form #text-area {
+  background-color: rgba(63, 63, 70, 0.15);
+  border: 1px solid rgb(63, 63, 70);
+  color: var(--heading-color);
+  padding: 5px 10px;
+  outline: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.light .parent-contact .bottom .left-section form #email,
+.light .parent-contact .bottom .left-section form #text-area {
+  background-color: #f4f4f5;
+  border: 1px solid rgba(0, 0, 0, 0.215);
+}
+
+.parent-contact .bottom .left-section form #email:hover,
+.parent-contact .bottom .left-section form #text-area:hover {
+  border: 1px solid var(--blue);
+}
+
+.light .parent-contact .bottom .left-section form #email:hover,
+.light .parent-contact .bottom .left-section form #text-area:hover {
+  border: 1px solid black;
+}
+
+.parent-contact .bottom .left-section form #email:focus,
+.parent-contact .bottom .left-section form #text-area:focus {
+  border: 1px solid var(--blue);
+}
+
+.light .parent-contact .bottom .left-section form #email:focus,
+.light .parent-contact .bottom .left-section form #text-area:focus {
+  border: 1px solid black;
+}
+
+.parent-contact .bottom .left-section form .email-address {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.parent-contact .bottom .left-section form .message-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.parent-contact .bottom .left-section form button {
+  background-color: rgba(36, 37, 46, 1);
+  color:  #f4f4f5;
+  width: 100px;
+  padding: 10px 0;
+  font-size: 16px;
+  border: 1px solid rgb(63, 63, 70);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.parent-contact .bottom .left-section form button:hover {
+  scale: 0.97;
+}
+
+.parent-contact .bottom .left-section form button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.submit-message {
+  font-size: 18px;
+  margin-top: -5px;
+  color: var(--paragraph-color);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+/* =====================================
+ 3. Bottom Section => right
+======================================== */
+
+@media (max-width:1200px) {
+  .right-section {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .right-section {
+    display: none;
+  }
+
+  .parent-contact .bottom .left-section form {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent-contact .bottom .left-section form button {
+    width: 150px;
+  }
+
+  .parent-contact .bottom .left-section form .email-address,
+  .parent-contact .bottom .left-section form .message-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .parent-contact .bottom .left-section form #email,
+  .parent-contact .bottom .left-section form #text-area {
+    width: 380px;
+  }
+
+  .parent-contact .bottom .left-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

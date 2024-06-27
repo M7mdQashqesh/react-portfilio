@@ -1,12 +1,22 @@
 export const myProjects = [
   {
+    category: ["react"],
+    imgPath:
+      "https://github.com/M7mdQashqesh/portfilio-images/blob/main/ecommerce.jpg?raw=true",
+    projectTitle: "E-commerce",
+    projectDescription:
+      "I developed an ecommerce site with React, focusing on dynamic product management and a responsive shopping cart.",
+    projectLink: "https://react-ecommerce-pied-five.vercel.app/login",
+    projectGitHub: "https://github.com/M7mdQashqesh/react-ecommerce",
+  },
+  {
     category: ["htmlAndCss"],
     imgPath:
       "https://mcwt.org/wp-content/uploads/2024/03/Coding-resources-Sololearn.jpg",
     projectTitle: "Sololearn Project",
     projectDescription:
       "An imitation of the home page of Sololearn, which is a free educational platform that helps millions of people around the world learn the most important technical skills.",
-    projectLink: "https://sololearnqash.netlify.app/",
+    projectLink: "https://sololearn-two.vercel.app/",
     projectGitHub: "https://github.com/M7mdQashqesh/Sololearn",
   },
   {
@@ -29,16 +39,19 @@ export const myProjects = [
   },
   {
     category: ["cpp"],
-    imgPath: "https://repository-images.githubusercontent.com/316158298/6521a100-34c0-11eb-8188-5b6c2679d3e7",
-   projectTitle: "CPU Scheduling",
-   projectDescription: "Simple application which will be able to simulate CPU scheduling algorithms such as (FCFS), (SJF), Round Robin (RR) and Shortest Remaining Time First (SRTF).",
-   projectGitHub: "https://github.com/M7mdQashqesh/Cpu-Scheduling",
+    imgPath:
+      "https://repository-images.githubusercontent.com/316158298/6521a100-34c0-11eb-8188-5b6c2679d3e7",
+    projectTitle: "CPU Scheduling",
+    projectDescription:
+      "Simple application which will be able to simulate CPU scheduling algorithms such as (FCFS), (SJF), Round Robin (RR) and Shortest Remaining Time First (SRTF).",
+    projectGitHub: "https://github.com/M7mdQashqesh/Cpu-Scheduling",
   },
   {
     category: ["java"],
     imgPath: "https://hyperskill.org/projects/33/cover.png",
-   projectTitle: "Coffee Machine",
-   projectDescription: "Designed and developed a Java Application to simulate a coffee machine by applying the concepts of Object-oriented programming.",
-   projectGitHub: "https://github.com/M7mdQashqesh/Coffee-Machine",
-  }
+    projectTitle: "Coffee Machine",
+    projectDescription:
+      "Designed and developed a Java Application to simulate a coffee machine by applying the concepts of Object-oriented programming.",
+    projectGitHub: "https://github.com/M7mdQashqesh/Coffee-Machine",
+  },
 ];

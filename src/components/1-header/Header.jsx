@@ -58,7 +58,11 @@ const Header = () => {
         }}
         className="switch-theam"
       >
-        {theme ==="dark" ? (<span className="icon-moon-o"></span>) : (<span className="icon-sun"></span>)}
+        {theme === "dark" ? (
+          <span className="icon-moon-o"></span>
+        ) : (
+          <span className="icon-sun"></span>
+        )}
       </button>
 
       {showModel && (
@@ -73,23 +77,45 @@ const Header = () => {
                 <span className="icon-cross"></span>
               </button>
             </li>
-            <li><a onClick={() => { 
-              setShowModel(false)
-             }} href="#up">Home</a></li>
             <li>
-              <a onClick={() => { 
-              setShowModel(false)
-             }} href="#about">About</a>
+              <a
+                onClick={() => {
+                  setShowModel(false);
+                }}
+                href="#up"
+              >
+                Home
+              </a>
             </li>
             <li>
-              <a onClick={() => { 
-              setShowModel(false)
-             }} href="#projects">Projects</a>
+              <a
+                onClick={() => {
+                  setShowModel(false);
+                }}
+                href="#about"
+              >
+                About
+              </a>
             </li>
             <li>
-              <a onClick={() => { 
-              setShowModel(false)
-             }} href="#contact">Contact</a>
+              <a
+                onClick={() => {
+                  setShowModel(false);
+                }}
+                href="#projects"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                onClick={() => {
+                  setShowModel(false);
+                }}
+                href="#contact"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </div>

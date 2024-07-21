@@ -12,6 +12,16 @@ export const myProjects = [
   {
     category: ["htmlAndCss"],
     imgPath:
+      "https://github.com/M7mdQashqesh/portfilio-images/blob/main/leon-template-one.jpg?raw=true",
+    projectTitle: "Leon Template One",
+    projectDescription:
+      "I have programmed a practical project from the Elzero Web School page to enhance my skills in HTML and CSS.",
+    projectLink: "https://leon-template-one.vercel.app/",
+    projectGitHub: "https://github.com/M7mdQashqesh/leon-template-one",
+  },
+  {
+    category: ["htmlAndCss"],
+    imgPath:
       "https://mcwt.org/wp-content/uploads/2024/03/Coding-resources-Sololearn.jpg",
     projectTitle: "Sololearn Project",
     projectDescription:

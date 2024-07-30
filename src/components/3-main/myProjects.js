@@ -22,6 +22,16 @@ export const myProjects = [
   {
     category: ["htmlAndCss"],
     imgPath:
+      "https://github.com/M7mdQashqesh/portfilio-images/blob/main/preview.jpg?raw=true",
+    projectTitle: "Recipe Page",
+    projectDescription:
+      "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.",
+    projectLink: "https://recipe-page-dusky-omega.vercel.app/",
+    projectGitHub: "https://github.com/M7mdQashqesh/recipe-page",
+  },
+  {
+    category: ["htmlAndCss"],
+    imgPath:
       "https://mcwt.org/wp-content/uploads/2024/03/Coding-resources-Sololearn.jpg",
     projectTitle: "Sololearn Project",
     projectDescription:

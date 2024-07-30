@@ -25,15 +25,15 @@ const Hero = () => {
         </p>
 
         <div className="social-icons">
-          <a href="https://www.instagram.com/m7md.coder/" target="_blank">
+          <a href="https://www.instagram.com/m7md.coder/" target="_blank" rel="noreferrer">
             <div className="icon icon-instagram"></div>
           </a>
-          <a href="https://github.com/M7mdQashqesh" target="_blank">
+          <a href="https://github.com/M7mdQashqesh" target="_blank" rel="noreferrer">
             <div className="icon icon-github"></div>
           </a>
           <a
             href="https://www.linkedin.com/in/mohammed-qashqesh/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <div className="icon icon-linkedin"></div>
           </a>

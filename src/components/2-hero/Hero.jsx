@@ -25,14 +25,23 @@ const Hero = () => {
         </p>
 
         <div className="social-icons">
-          <a href="https://www.instagram.com/m7md.coder/" target="_blank"><div className="icon icon-instagram"></div></a>
-          <a href="https://github.com/M7mdQashqesh" target="_blank"><div className="icon icon-github"></div></a>
-          <a href="https://www.linkedin.com/in/mohammed-qashqesh-35098b2bb/" target="_blank"><div className="icon icon-linkedin"></div></a>
+          <a href="https://www.instagram.com/m7md.coder/" target="_blank">
+            <div className="icon icon-instagram"></div>
+          </a>
+          <a href="https://github.com/M7mdQashqesh" target="_blank">
+            <div className="icon icon-github"></div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mohammed-qashqesh/"
+            target="_blank"
+          >
+            <div className="icon icon-linkedin"></div>
+          </a>
         </div>
       </div>
 
       <div className="right-section animation ">
-      <Lottie style={{scale: "1.3"}} animationData={developerAnimation} />
+        <Lottie style={{ scale: "1.3" }} animationData={developerAnimation} />
       </div>
     </section>
   );

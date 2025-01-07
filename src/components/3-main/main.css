@@ -1,5 +1,5 @@
 /* =====================================
- table of conents
+  table of conents
 ========================================
 1. Left Section
 2. Right Section
@@ -12,15 +12,15 @@
 }
 
 /* =====================================
- 1. Left Section => Buttons
+  1. Left Section => Buttons
 ======================================== */
-.left-sectoin {
+.left-section {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.left-sectoin button {
+.left-section button {
   background-color: rgba(36, 37, 46, 1);
   color: #f4f4f5;
   padding: 15px 30px;
@@ -31,25 +31,25 @@
   opacity: 0.5;
 }
 
-.left-sectoin button:hover {
+.left-section button:hover {
   scale: 1.05;
   opacity: 1;
   cursor: pointer;
 }
 
-.left-sectoin button.active {
+.left-section button.active {
   border: 1px solid var(--blue);
   scale: 1.05;
   font-weight: 600;
   opacity: 1;
 }
 
-.light .left-sectoin button.active {
+.light .left-section button.active {
   border: 1px solid black;
 }
 
 /* =====================================
- 2. Right Section => Cards
+  2. Right Section => Cards
 ======================================== */
 a {
   all: unset;
@@ -149,7 +149,7 @@ a {
 }
 
 /* =====================================
- 4. Responsive Design (media query)
+  4. Responsive Design (media query)
 ======================================== */
 @media (max-width: 600px) {
   .parent-main {
@@ -157,14 +157,14 @@ a {
     align-items: center;
   }
 
-  .left-sectoin {
+  .left-section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px 20px;
   }
 
-  .left-sectoin button {
+  .left-section button {
     padding: 5px 10px;
     width: 150px;
     font-size: 16px;

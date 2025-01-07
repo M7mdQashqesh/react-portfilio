@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./main.css";
 import { myProjects } from "./myProjects.js";
-import { AnimatePresence, motion, spring } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Main = () => {
   const [currentActive, setCurrentActive] = useState("all");
@@ -22,7 +22,7 @@ const Main = () => {
 
   return (
     <main id="projects" className="parent-main">
-      <div className="left-sectoin ">
+      <div className="left-section ">
         <button
           onClick={() => {
             setCurrentActive("all");
@@ -48,7 +48,7 @@ const Main = () => {
           }}
           className={currentActive === "javaScript" ? "active" : null}
         >
-          javaScript
+          JavaScript
         </button>
 
         <button
@@ -62,21 +62,14 @@ const Main = () => {
 
         <button
           onClick={() => {
-            handleClick("cpp");
+            handleClick("next");
           }}
-          className={currentActive === "cpp" ? "active" : null}
+          className={currentActive === "next" ? "active" : null}
         >
-          C++
+          NextJs
         </button>
 
-        <button
-          onClick={() => {
-            handleClick("java");
-          }}
-          className={currentActive === "java" ? "active" : null}
-        >
-          Java
-        </button>
+
       </div>
 
       <div className="right-section">
@@ -101,6 +94,7 @@ const Main = () => {
                         href={element.projectLink}
                         target="_blank"
                         title="Project link"
+                        rel="noreferrer noopener"
                       >
                         <div className="icon-link"></div>
                       </a>
@@ -108,6 +102,7 @@ const Main = () => {
                         href={element.projectGitHub}
                         target="_blank"
                         title="GitHub link"
+                        rel="noreferrer noopener"
                       >
                         <div className="icon-github"></div>
                       </a>

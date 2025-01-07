@@ -50,38 +50,23 @@ export const myProjects = [
     projectGitHub: "https://github.com/M7mdQashqesh/Sololearn",
   },
   {
-    category: ["cpp"],
+    category: ["htmlAndCss"],
     imgPath:
-      "https://www.scaler.com/topics/images/socket-programming-in-computer-network_thumbnail.webp",
-    projectTitle: "Socket Project",
+      "https://github.com/M7mdQashqesh/portfilio-images/blob/main/blog-preview-card.jpg?raw=true",
+    projectTitle: "Blog Preview Card",
     projectDescription:
-      "The repo is to hold the code I write to create a chat between the client and the server on two different devices on the same network",
-    projectGitHub: "https://github.com/M7mdQashqesh/socket",
+      "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+    projectLink: "https://blog-preview-card-beige-three.vercel.app/",
+    projectGitHub: "https://github.com/M7mdQashqesh/blog-preview-card",
   },
   {
-    category: ["cpp"],
+    category: ["javaScript"],
     imgPath:
-      "https://miro.medium.com/v2/resize:fit:1000/1*yFzcbxwGGAmT9M6lIuPKXg.jpeg",
-    projectTitle: "AES Encryption",
+      "https://github.com/M7mdQashqesh/portfilio-images/blob/main/qash-store.jpg?raw=true",
+    projectTitle: "Qash Store",
     projectDescription:
-      "A program written in C++ to encrypt images, place confidential information inside them, and also perform some checks on the quality of the encryption.",
-    projectGitHub: "https://github.com/M7mdQashqesh/AES",
-  },
-  {
-    category: ["cpp"],
-    imgPath:
-      "https://repository-images.githubusercontent.com/316158298/6521a100-34c0-11eb-8188-5b6c2679d3e7",
-    projectTitle: "CPU Scheduling",
-    projectDescription:
-      "Simple application which will be able to simulate CPU scheduling algorithms such as (FCFS), (SJF), Round Robin (RR) and Shortest Remaining Time First (SRTF).",
-    projectGitHub: "https://github.com/M7mdQashqesh/Cpu-Scheduling",
-  },
-  {
-    category: ["java"],
-    imgPath: "https://hyperskill.org/projects/33/cover.png",
-    projectTitle: "Coffee Machine",
-    projectDescription:
-      "Designed and developed a Java Application to simulate a coffee machine by applying the concepts of Object-oriented programming.",
-    projectGitHub: "https://github.com/M7mdQashqesh/Coffee-Machine",
+      "Built a responsive online store for digital products. Integrated WhatsApp for easy order placement, enhancing customer convenience and streamlining the purchasing process.",
+    projectLink: "https://qash-store.vercel.app/",
+    projectGitHub: "https://github.com/M7mdQashqesh/qash-store",
   },
 ];
